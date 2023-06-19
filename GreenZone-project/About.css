@@ -1,0 +1,118 @@
+
+
+/* ||HEADER  */
+.header__text {
+    background: #F6FFF7;
+    font-size: 20px;
+    line-height: 1.4;
+    font-weight: bold;
+    padding: 80px 40px;
+}
+
+
+
+/* || Khalid SECTION  */
+
+.khalid-section {
+    min-height: 70vh;
+    margin-bottom: 50px;
+}
+
+.khalid-rect {
+    background: #D3FFD8;
+    width: 30%;
+    height: 400px;
+    float: left;
+    margin: 0 30px;
+}
+
+.khalid-text {
+    font-size: 20px;
+    line-height: 1.4;
+    font-weight: 500;
+    background: #F6FFF7;
+    width: 66%;
+    padding: 50px;
+    margin: 100px 0px;
+    float: right;
+}
+
+.name-block {
+    position :absolute;
+    right: -30px;
+    bottom: -20px;
+    background: #FFDF35;
+    box-shadow: 3px 10px 10px;
+    width: 300px;
+    padding: 10px 20px;
+    border-radius: 7px;
+    z-index: 1;
+}
+
+
+.relative__h1 {
+    font-size: 25px;
+    /* background: #FFDF35; */
+}
+
+
+/* || BETTE SECTION  */
+
+.bette-section {
+    min-height: 50vh;
+    margin-bottom: 150px;
+}
+
+.bette-rect {
+    background: #40C79F;
+    width: 22%;
+    height: 420px;
+    margin: 0 30px;
+    float: right;
+}
+
+.bette-img {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    bottom: 10px;
+}
+
+.name-block2 {
+    position :absolute;
+    bottom: -80px;
+    left: -80px;
+    text-transform: uppercase;
+    background: #FFDF35;
+    box-shadow: 3px 10px 10px;
+    width: 300px;
+    padding: 10px 20px;
+    border-radius: 7px;
+    z-index: 1;
+}
+
+.bette-text {
+    font-size: 20px;
+    line-height: 1.4;
+    font-weight: 500;
+    background: #F6FFF7;
+    width: 73%;
+    padding: 50px;
+    margin: 150px 0px;
+    float: left;
+}
+
+/* ||UTILITIES */
+
+.header__title {
+    font-size: 40px;
+    padding: 20px;
+    margin: 30px auto;
+    text-align: center;
+    background: #F6FFF7;
+    width: fit-content;
+}
+
+.relative {
+    position: relative;
+}

@@ -1,0 +1,149 @@
+.resources-header {
+    background: url(Greenzone-img/resource-header.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    margin-bottom: 40px;
+}
+
+.text-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lg-text {
+    font-size: 40px;
+}
+
+.flex a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.amazon {
+    font-size: 20px;
+}
+
+.resources__container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 120px 40px;
+}
+
+.books-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.book {
+    width: 300px;
+    height: 480px;
+}
+
+/* || DOWNLOAD SECTION  */
+
+.download-section {
+    position: relative;
+}
+
+.download-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 200px;
+}
+
+.a-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 30px;
+}
+
+.a-container h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.a-container a .amazon {
+    font-size: 22px;
+}
+
+.a-container a {
+    display: flex;
+    align-items: center;
+}
+
+.download-img {
+    width: 100px;
+    /* margin-top: -20px; */
+}
+
+.download-section a {
+    display: flex;
+    gap: 50px;
+    position: relative;
+    z-index: 1;
+}
+
+.books-girl {
+    width: 700px;
+    position: relative;
+    z-index: 2;
+}
+
+.download-rect {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+}
+
+/* || VIDEO SECTION  */
+
+.video-section {
+    margin-bottom: 40px;
+}
+
+.video-section .resources__container {
+    margin: 0;
+    margin-top: 100px;
+}
+
+.video-section .resources__container .text-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 100px;
+    margin-bottom: 30px;
+}
+
+.video-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.video {
+    width: 400px;
+    height: 250px;
+    margin: 0;
+}
+
+.video-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 16pxpx;
+    font-weight: 500;
+}
+
+
+/* ||UTILS */
+
+.flex {
+    display: flex;
+    align-items: center;
+}

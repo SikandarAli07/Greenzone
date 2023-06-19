@@ -1,0 +1,40 @@
+/* || RESET  */
+
+body{
+    min-height: 100vh;
+    max-width: 100%;
+    color :#049762;
+    font-size: 1rem;
+}
+
+input {
+    font: inherit;
+}
+
+/* || HEADER  */
+
+.signup-header {
+    background: url(Greenzone-img/signin-bg.png) no-repeat center center /cover;
+    width: 50%;
+    height: 100vh;
+    float: left;
+}
+
+.greenzone-logo {
+    width: 250px;
+    margin: 20px;
+}
+
+.signup-man {
+    display: block;
+    width: 600px;
+    margin: 50px auto;
+}
+
+/* || SIGN-UP SECTION  */
+
+.signup-section {
+    margin: 20px 0;
+    width: 50%;
+    float: right;
+}

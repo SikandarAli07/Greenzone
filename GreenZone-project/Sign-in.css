@@ -1,0 +1,144 @@
+/* || RESET  */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* || GENERAL STYLES */
+
+body{
+    min-height: 100vh;
+    max-width: 100%;
+    color :#049762;
+    font-size: 1rem;
+}
+
+input {
+    font: inherit;
+}
+
+/* ||HEADER  */
+
+.signin-header {
+    background: url(Greenzone-img/signin-bg.png) no-repeat center center / cover;
+    width: 50%;
+    height: 100vh;
+    float: left;
+}
+
+.greenzone-logo {
+    width: 250px;
+    margin: 20px;
+}
+
+.signin-girl {
+    display: block;
+    width: 600px;
+    margin: 50px auto;
+}
+
+/* || SIGN-IN SECTION  */
+
+.signin-section {
+    margin: 100px 0;
+    width: 50%;
+    float: right;
+}
+
+.container {
+    margin: 100px 50px;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+.fc {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.login {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.form-control {
+    width:100%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background: #F1F1F1;
+}
+
+.eye {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    width: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+.login-text {
+    display: block;
+    text-transform: uppercase;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.flex-btn {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.flex-btn .color-btn {
+    font-weight: 300;
+    text-align: center;
+    width: 280px;
+}
+
+.form-group .flex {
+    float: left;
+    margin-top: 40px;
+    gap: 30px;
+}
+
+.flex .flex-btn {
+    margin: 0;
+    gap: 10px;
+}
+
+.flex .login-text {
+    margin: 0;
+}
+
+span {
+    font-size: 20px;
+}
+
+/* || UTILS */
+
+.color-btn {
+    font-size: 1rem;
+    display: block;
+}
+
+.flex {
+    float: right;
+    margin-right: 40px;
+    align-items: center;
+}
+
+.relative {
+    position: relative;
+    margin-bottom: 10px;
+}

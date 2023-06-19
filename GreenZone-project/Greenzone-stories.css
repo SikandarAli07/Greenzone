@@ -1,0 +1,103 @@
+.stories-header {
+  background: url(Greenzone-img/Greenzone-stories-header.png) no-repeat center
+    center / cover;
+  height: 500px;
+}
+
+.stories-div {
+  font-size: 1rem;
+  position: relative;
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stories-div h1 {
+  z-index: 1;
+}
+
+.h1-rect {
+  width: 300px;
+  position: absolute;
+  bottom: -5px;
+}
+
+.container {
+  background: white;
+}
+
+.stories-text {
+  font-size: 13px;
+  margin: 50px;
+  margin-bottom: 0;
+  line-height: 1.4;
+  text-align: justify;
+}
+
+.listen-text {
+  font-size: 25px;
+  margin: 30px 50px;
+}
+
+/* || AUDIO SECTION  */
+
+
+.audio-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -50px;
+  gap: 20px;
+}
+
+.bette-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.audio-fc {
+  display: flex;
+  flex-direction: column;
+}
+
+.audio-card {
+  background: white;
+  box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.481);
+  border-radius: 6px;
+  position: relative;
+  width: 80%;
+}
+
+.audio-container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 15px;
+}
+
+.mp3 {
+  width: 670px;
+}
+
+.mp3::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-panel {
+  color: #40c79f;
+  background-color: white;
+}
+
+figcaption {
+    font-size: 13px;
+    margin-left: 1rem;
+}
+
+.read-story {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+}
+
+.audio-card-container:last-child {
+  margin-bottom: 40px;
+}
